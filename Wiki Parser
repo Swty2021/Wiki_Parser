@@ -1,0 +1,13 @@
+# Wiki_Parser
+This is used to extract the web data.
+It is useful for  price monitoring, price intelligence, news monitoring, lead generation, and market research among many others.
+A finite numbers of Python libraries are required to parse a website data.
+Requests (HTTP for Humans) Library for Web Scraping – It is used for making various types of HTTP requests like GET, POST, etc. It is the most basic yet the most essential of all libraries.
+lxml Library for Web Scraping – lxml library provides super-fast and high-performance parsing of HTML and XML content from websites. If you are planning to scrape large datasets, this is the one you should go for.
+Beautiful Soup Library for Web Scraping – Its work involves creating a parse tree for parsing content. A perfect starting library for beginners and very easy to work with.
+Selenium Library for Web Scraping – Originally made for automated testing of web applications, this library overcomes the issue all the above libraries face i.e. scraping content from dynamically populated websites. This makes it slower and not suitable for industry-level projects.
+Scrapy for Web Scraping – The BOSS of all libraries, an entire web scraping framework which is asynchronous in its usage. This makes it blazing fast and increases efficiency.
+BeautifulSoup is a Python library for pulling data out of HTML and XML files.
+It needs an input (document or URL) to create a soup object as it cannot fetch a web page by itself.
+We have other modules such as regular expression, lxml for the same purpose.
+We then process the data in CSV or JSON or MySQL format.
